@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
             getSelectedColor();
         }
     }
-
     public void clickedChange(View view) {
         if (!switch1.isChecked()){
             getSelectedColor();
