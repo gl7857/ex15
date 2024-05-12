@@ -53,18 +53,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void getSelectedColor() {
         int selectedRadioButtonId = rGroup.getCheckedRadioButtonId();
-
         if (selectedRadioButtonId == R.id.rbBlue)
             getWindow().getDecorView().setBackgroundColor(Color.BLUE);
-
         else if (selectedRadioButtonId == R.id.rbRed)
             getWindow().getDecorView().setBackgroundColor(Color.RED);
-
         else if (selectedRadioButtonId == R.id.rbYellow)
             getWindow().getDecorView().setBackgroundColor(Color.YELLOW);
-
         else if (selectedRadioButtonId == R.id.rbMagenta)
             getWindow().getDecorView().setBackgroundColor(Color.MAGENTA);
-
     }
 }
